@@ -228,6 +228,8 @@ body{
     color: #818181; 
   }
   .artist:hover{
+      /* color: rgb(41, 40, 40); */
+    text-decoration: none;
       color: darkred;
   }
   .hvr-grow {
