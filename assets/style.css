@@ -585,7 +585,7 @@ figure.effect-oscar:hover img {
     opacity: 0.4;
 }
 .gentry{
-    height: auto;
+    min-height: 30em;
     width: auto;
 }
 
