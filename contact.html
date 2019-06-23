@@ -13,29 +13,21 @@
         href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,500,600|BenchNine:300,400,700|Gothic+A1:300,400,500,600,700|Muli:300|Quicksand:300,400|Raleway:100,400&display=swap"
         rel="stylesheet">
 
-    <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!-- jQuery cdn -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!-- backstretch cdn -->
+    <!-- Backstretch CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 
     <!-- CSS links -->
     <link rel="stylesheet" media="screen" href="assets/reset.css" />
     <link rel="stylesheet" media="screen" href="assets/style.css" />
+    <link rel='stylesheet' media="screen" href='assets/contact.css' />
 
     <!-- fontawesome kit  -->
     <script src="https://kit.fontawesome.com/38e68458dc.js"></script>
@@ -73,27 +65,16 @@
                 <!-- <img class='logo' src='./assets/images/testlogo.png' alt='logo' height='100' width='100'></img> -->
             </div>
             <br>
-            <div class='container-fluid'>
+            <div class='container'>
                 <div class='row'>
-
-                    <div class='col-sm-6'>
-
-                        <div style="width: 200px">
-                            <!-- <div>
-                                    <div class='button loading'>Loading</div>
-                                    <div class='button stop'>Stop</div>
-                                </div>  -->
-                            <div>
-                                <img id='imageLoading' src="./assets/images/testlogo.png" />
-                            </div>
-                            <div>
+                        <div class='col-sm-6'>
+                                <div class='row'>
+                                      <div class='img'>  <img class='image' src="./assets/images/testlogo.png"></img>
+                                      </div>
+                                </div>
+                                
                             </div>
 
-                        </div>
-                        <div>
-                            <p class='note'>p.s. you look great today</p>
-                        </div>
-                    </div>
                     <div class='col-sm-6'>
                         <div class='row'>
 
@@ -108,7 +89,7 @@
                             </div>
                             <div class='col-sm-2'></div>
                         </div>
-                        <form action="https://formspree.io/pinksunflowers31@gmail.com" method="POST">
+                        <form action="https://formspree.io/pinksunflowers31@gmail.com" method="POST" class='form'>
                             <div class='row'>
 
                                 <input class='text4' type="text" id="name" name="name" placeholder="What is your name?">
@@ -121,19 +102,42 @@
                             <div class='row'>
                                 <div class='col-sm-4'></div>
                                 <div class='col-sm-4'>
-                                        <button type="submit"
-                                     class="button" id='hvr-fade' href="#" role="button">Send Message</button>
+                                    <button type="submit" class="button" id='hvr-fade' href="#" role="button">Send
+                                        Message</button>
                                 </div>
                                 <div class='col-sm-4'></div>
                             </div>
                         </form>
                     </div>
-
+                   
                 </div>
+                <div class='row'>
+                        <p class='note'> p.s. you look great today </p>
+                    </div>
+
 
             </div>
             <br />
-
+            <!-- <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /> -->
+            <br />
+            <br />
             <footer class='footer'>
                 <div class='row'>
                     <div class='col-sm-4'></div>
@@ -168,6 +172,7 @@
 
         <script src="assets/epicenter.js"></script>
         <script src="assets/backstretch.js"></script>
+        <script src='assets/contact.js'></script>
         <!-- <script>
             $(document).ready(function(){
                 $.backstretch('');
