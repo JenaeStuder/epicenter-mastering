@@ -6,7 +6,10 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Gothic A1', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'BenchNine', sans-serif; */
-/* 
+body{
+  background-color: black;
+
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -44,7 +47,7 @@ font-family: 'BenchNine', sans-serif; */
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 70px;
     margin-left: 50px;
     font-family: 'BenchNine', sans-serif;
   }
@@ -286,7 +289,13 @@ font-family: 'BenchNine', sans-serif; */
     .sidenav a {font-size: 18px;}
   }
   
-  @media only screen and (max-width: 600px) {}
+  @media screen and (max-width: 600px) {
+    .sidenav {
+      padding-top: 15px;
+  
+    }
+    .sidenav a {font-size: 18px;}
+  }
   @media only screen and (min-width: 600px) {}
 
 @media only screen and (min-width: 768px) {}
