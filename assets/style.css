@@ -7,7 +7,7 @@ font-family: 'Gothic A1', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'BenchNine', sans-serif; */
 body{
-  background-color: black;
+  background-color: rgb(17,22,31);
 
 }
 
@@ -19,7 +19,7 @@ body{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: (rgb(17,22,31)); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -31,7 +31,8 @@ body{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     display: block;
     transition: 0.3s;
     font-family: 'BenchNine', sans-serif;
@@ -40,6 +41,7 @@ body{
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: rgb(101, 16, 9);
+    color: rgb(105,154,180)
   }
   
   /* Position and style the close button (top right corner) */
@@ -56,11 +58,12 @@ body{
   #main {
     transition: margin-left .5s;
     padding: 20px;
-    background-color: black;
+    /* background-color: #818181 */
+    background-color:rgb(17,22,31);
   }
   
   .cl-effect-2 a {
-	line-height: 44px;
+	line-height: 50px;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
@@ -69,7 +72,7 @@ body{
 .cl-effect-2 a span {
 	position: relative;
 	display: inline-block;
-	padding: 0 14px;
+	padding: 20px 14px 20px 14px;
     /* background: #2195de; */
     /* background:darkgray; */
 	-webkit-transition: -webkit-transform 0.3s;
@@ -117,12 +120,14 @@ body{
 /* *** menu button on all pages *** */
 .menu{
     font-family: 'BenchNine', sans-serif;
-    color: #818181;
+    /* color: #818181; */
+    color:white;
     font-size:30px;
     padding:3%;
 }
 .menu:hover{
-    color: rgb(101, 16, 9);
+    /* color: rgb(101, 16, 9); */
+    color: rgb(105,154,180);
 }
 @-webkit-keyframes hvr-bob {
     0% {
@@ -201,7 +206,8 @@ body{
 }
   #intro{
     font-family: 'Muli', sans-serif;
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     text-align: center;
     align-content: center;
   }
@@ -210,8 +216,9 @@ body{
 
   .footer{
     font-family: 'BenchNine', sans-serif;
-    color: #818181;
-    background-color:black;
+    /* color: #818181; */
+    background-color:rgb(17,22,31);
+    /* background-color: #818181; */
     position: relative;
     left: 0;
     bottom: 0;
@@ -222,60 +229,70 @@ body{
   }
  /* *** footer icons and animation on them *** */
   .fa-facebook-f{
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     font-size:150%;
     padding: 2.5%;
   }
   .fa-facebook-f:hover{
-      color: rgb(101, 16, 9)
+      /* color: rgb(101, 16, 9) */
+      color: rgb(105,154,180)
   }
   .fa-instagram{
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-instagram:hover{
-    color: rgb(101, 16, 9);
+    /* color: rgb(101, 16, 9); */
+    color: rgb(105,154,180);
 }
   .fa-twitter{
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-twitter:hover{
-    color: rgb(101, 16, 9);
+    /* color: rgb(101, 16, 9); */
+    color: rgb(105,154,180);
 }
   .fa-compact-disc{
-    color: #818181;
+    /* color: #818181; */
+    color:white;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-compact-disc:hover{
-    color: rgb(101, 16, 9);
-    background-color: black;
+    /* color: rgb(101, 16, 9); */
+    /* background-color: black; */
+    color: rgb(105,154,180);
 }
 
   .fa-broadcast-tower{
-    color: #818181;
+    /* color: #818181; */
+    color: white;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-broadcast-tower:hover{
-    color: rgb(101, 16, 9);
+    /* color: rgb(101, 16, 9); */
+    color: rgb(105,154,180);
 }
   #hvr-bounce-in {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     padding: 2.5%;
   }
   #hvr-bounce-in:hover, #hvr-bounce-in:focus, #hvr-bounce-in:active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }

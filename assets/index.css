@@ -18,12 +18,18 @@
   /* *** the animations for when you hover over anything with a link attribute *** */
 
   .artist{
-    color: #818181; 
+    /* color: #818181;  */
+    color: white;
+   
+    
   }
   .artist:hover{
       /* color: rgb(41, 40, 40); */
     text-decoration: none;
-      color: rgb(101, 16, 9);
+    /* color:rgb(171,22,1); */
+    color: rgb(105,154,180);
+    
+      /* color: rgb(101, 16, 9); */
   }
   .hvr-grow {
     display: inline-block;

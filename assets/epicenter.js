@@ -5,14 +5,14 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0)";
+    document.body.style.backgroundColor = "rgb(17,22,31)";
   }
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-    document.body.style.backgroundColor = "black";
+    // document.body.style.backgroundColor = "rgb(17,22,31)";
   }
 
   
