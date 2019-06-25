@@ -27,7 +27,7 @@
     <!-- CSS links -->
     <link rel="stylesheet" media="screen" href="assets/reset.css" />
     <link rel="stylesheet" media="screen" href="assets/style.css" />
-    <link rel="stylesheet" media="screen" href="assets/listen.css" />
+    <link rel="stylesheet" media="screen" href="assets/studio.css" />
 
     <!-- fontawesome kit  -->
     <script src="https://kit.fontawesome.com/38e68458dc.js"></script>
@@ -37,36 +37,97 @@
 
 <body>
     <wrapper>
-<div class='container-fluid'>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <nav class="cl-effect-2" id="cl-effect-2">
-                <a href="index.html"><span data-hover="HOME">HOME</span></a>
-                <a href="about.html"><span data-hover="ABOUT">ABOUT</span></a>
+        <div class='container-fluid'>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <nav class="cl-effect-2" id="cl-effect-2">
+                    <a href="index.html"><span data-hover="HOME">HOME</span></a>
+                    <a href="about.html"><span data-hover="ABOUT">ABOUT</span></a>
 
-                <a href="listen.html"><span data-hover="LISTEN">LISTEN</span></a>
-                <a href="credits.html"><span data-hover="CREDITS">CREDITS</span></a>
-                <a href="contact.html"><span data-hover="CONTACT">CONTACT</span></a>
+                    <a href="listen.html"><span data-hover="LISTEN">LISTEN</span></a>
+                    <a href="credits.html"><span data-hover="CREDITS">CREDITS</span></a>
+                    <a href="contact.html"><span data-hover="CONTACT">CONTACT</span></a>
 
-            </nav>
-            <!-- <a href="#">ABOUT</a>
+                </nav>
+                <!-- <a href="#">ABOUT</a>
                 <a href="#">STUDIO</a>
                 <a href="#">LISTEN</a>
                 <a href="#">CREDITS</a>
                 <a href="/contact.html">CONTACT</a> -->
-        </div>
-
-
-
-        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-        <div id="main">
-            <div class='row'>
-                <!-- Use any element to open the sidenav -->
-                <span class='menu hvr-bob' onclick="openNav()">Menu</span>
-                <!-- <img class='logo' src='./assets/images/testlogo.png' alt='logo' height='100' width='100'></img> -->
             </div>
 
 
+
+            <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+            <div id="main">
+                <div class='row'>
+                    <!-- Use any element to open the sidenav -->
+                    <span class='menu hvr-bob' onclick="openNav()">Menu</span>
+                    <!-- <img class='logo' src='./assets/images/testlogo.png' alt='logo' height='100' width='100'></img> -->
+                </div>
+                <!-- <div class="hero-image-studio">
+                        <div class="container-fluid">
+                                <h1 class='title'>epicenter MASTERING</h1>
+                            </div>
+                </div> -->
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-lg-6 col-sm-12 pic'>
+                            <div id="f1_container">
+                                <div id="f1_card" class="shadow">
+                                    <div class="front face">
+                                        <img src="./assets/images/studio.jpg" height='300' width='450' />
+                                    </div>
+                                    <div class="back face center">
+                                        <img src='./assets/images/studioshottest.jpg' height='300' width='450' />
+                                        <!-- <p>This is nice for exposing more information about an image.</p>
+                            <p>Any content can go here.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-lg-6 col-sm-12 pic'>
+                            <div id="f1_container">
+                                <div id="f1_card" class="shadow">
+                                    <div class="front face">
+                                        <img src="./assets/images/nashville.jpg" height='300' width='450' />
+                                    </div>
+                                    <div class="back face center">
+                                        <img src='./assets/images/nashvegas.jpg' height='300' width='450' />
+                                        <!-- <p>This is nice for exposing more information about an image.</p>
+                                    <p>Any content can go here.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><br>
+                <div class='container'>
+                    <div class='row' id='intro'>
+                        <p>Epicenter Mastering is a fully analog mastering studio, with high quality analog gear; but
+                            has plenty of premium digital plug ins, if needed.</p>
+                        <div class='row'>
+                            <div class='col-sm-2'></div>
+                            <div class='col-sm-10 gear'>
+                                <p>Gear List Includes:</p>
+                                <ul>
+                                    <li> SPL - DMC</li>
+                                    <li> SPL - PQ</li>
+                                    <li> SPL - PASSEQ</li>
+                                    <li> SPL - IRON Compressor</li>
+                                    <li>Knif - Soma</li>
+                                    <li>Sontec - 250 EX</li>
+                                    <li>Antelope Audio - 10MX</li>
+                                    <li> Waves - L2 (hardware)</li>
+                                    <li> and much more </li>
+                                </ul>
+                            </div>
+                            <!-- <div class='col-sm'></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br />
             <br />
             <br />
@@ -103,21 +164,21 @@
                 </div>
             </footer>
         </div>
-    </div>
-</wrapper>
+        </div>
+    </wrapper>
 
 
 
 
 
-        <script src="assets/epicenter.js"></script>
-        <script src="assets/backstretch.js"></script>
-        <!-- <script>
+    <script src="assets/epicenter.js"></script>
+    <script src="assets/backstretch.js"></script>
+    <!-- <script>
             $(document).ready(function(){
                 $.backstretch('');
             });    
             </script> -->
-    
+
 </body>
 
 </html>
