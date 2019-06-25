@@ -40,7 +40,7 @@ body{
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: rgb(101, 16, 9);
+    /* color: rgb(101, 16, 9); */
     color: rgb(105,154,180)
   }
   
