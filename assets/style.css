@@ -5,9 +5,17 @@ font-family: 'Muli', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Gothic A1', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
-font-family: 'BenchNine', sans-serif; */
+font-family: 'BenchNine', sans-serif;
+color: #226469 Blue Sapphire *accent color*
+color: #ebcb92 Pale Gold *accent color*
+color: #727f87 Aurometalsaurus *text color?*
+color: #dee3e6 Platunum *background color*
+color: #28536B Dark Slate Gray *highlight color*
+color #ffffff *highlight color*
+
+*/
 body{
-  background-color: rgb(17,22,31);
+  background-color: #ffffff;
 
 }
 
@@ -19,7 +27,7 @@ body{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: (rgb(17,22,31)); /* Black*/
+    background-color: (#727f87); /* Autrometalsaurus*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -32,7 +40,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     /* color: #818181; */
-    color: white;
+    color:#ebcb92;
     display: block;
     transition: 0.3s;
     font-family: 'BenchNine', sans-serif;
@@ -41,7 +49,7 @@ body{
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     /* color: rgb(101, 16, 9); */
-    color: rgb(105,154,180)
+    color: #226469
   }
   
   /* Position and style the close button (top right corner) */
@@ -58,10 +66,16 @@ body{
   #main {
     transition: margin-left .5s;
     padding: 20px;
-    /* background-color: #818181 */
-    background-color:rgb(17,22,31);
+    /* background-color: #ffffff; */
+    
   }
-  
+  /* .logo{
+    align-content: center;
+    background-image:linear-gradient(45deg,#727f87,  #dee3e6);
+    height: 800px; 
+     background-color:#727f87; 
+    
+  }*/
   .cl-effect-2 a {
 	line-height: 50px;
 	-webkit-perspective: 1000px;
@@ -121,13 +135,13 @@ body{
 .menu{
     font-family: 'BenchNine', sans-serif;
     /* color: #818181; */
-    color:white;
+    color:#ebcb92;
     font-size:30px;
     padding:3%;
 }
 .menu:hover{
     /* color: rgb(101, 16, 9); */
-    color: rgb(105,154,180);
+    color: #ffffff;
 }
 @-webkit-keyframes hvr-bob {
     0% {
@@ -200,14 +214,14 @@ body{
     font-weight: 100;
     font-size: 100px;
     /* color: #818181; */
-    color:white;
+    color:#727f87;
     text-align: center;
     padding:10%;
 }
   #intro{
     font-family: 'Muli', sans-serif;
     /* color: #818181; */
-    color: white;
+    color:#727f87;
     text-align: center;
     align-content: center;
   }
@@ -217,7 +231,7 @@ body{
   .footer{
     font-family: 'BenchNine', sans-serif;
     /* color: #818181; */
-    background-color:rgb(17,22,31);
+    background-color:#ffffff;
     /* background-color: #818181; */
     position: relative;
     left: 0;
@@ -230,62 +244,62 @@ body{
  /* *** footer icons and animation on them *** */
   .fa-facebook-f{
     /* color: #818181; */
-    color: white;
+    color:#727f87;
     font-size:150%;
     padding: 2.5%;
   }
   .fa-facebook-f:hover{
       /* color: rgb(101, 16, 9) */
-      color: rgb(105,154,180)
+      color: #226469;
   }
   .fa-instagram{
     /* color: #818181; */
-    color: white;
+    color:#727f87;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-instagram:hover{
     /* color: rgb(101, 16, 9); */
-    color: rgb(105,154,180);
+    color: #226469;;
 }
   .fa-twitter{
     /* color: #818181; */
-    color: white;
+    color:#727f87;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-twitter:hover{
     /* color: rgb(101, 16, 9); */
-    color: rgb(105,154,180);
+    color: #226469;;
 }
   .fa-compact-disc{
     /* color: #818181; */
-    color:white;
+    color:#727f87;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-compact-disc:hover{
     /* color: rgb(101, 16, 9); */
     /* background-color: black; */
-    color: rgb(105,154,180);
+    color: #226469;;
 }
 
   .fa-broadcast-tower{
     /* color: #818181; */
-    color: white;
+    color:#727f87;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-broadcast-tower:hover{
     /* color: rgb(101, 16, 9); */
-    color: rgb(105,154,180);
+    color: #226469;;
 }
   #hvr-bounce-in {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 2px #ffffff;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     padding: 2.5%;

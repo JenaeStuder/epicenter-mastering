@@ -46,14 +46,11 @@
   transform: rotateY(180deg);
   box-sizing: border-box;
   /* padding: 10px; */
-  color: white;
+  color: #727f87;
   text-align: center;
   /* background-color: #aaa; */
 }
-.gear{
-  align-content: center;
-  text-align: center;
-}
+
 /* .pic{
   margin: 1%;
 } */
