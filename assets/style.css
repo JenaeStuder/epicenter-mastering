@@ -136,7 +136,7 @@ body{
     font-family: 'BenchNine', sans-serif;
     /* color: #818181; */
     color:#ebcb92;
-    font-size:30px;
+    font-size:35px;
     padding:3%;
 }
 .menu:hover{
@@ -224,6 +224,7 @@ body{
     color:#727f87;
     text-align: center;
     align-content: center;
+    font-size: 28px;
   }
   
   /* *** Footer *** */
@@ -231,7 +232,7 @@ body{
   .footer{
     font-family: 'BenchNine', sans-serif;
     /* color: #818181; */
-    background-color:#ffffff;
+    background-image:linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6));
     /* background-color: #818181; */
     position: relative;
     left: 0;
@@ -244,17 +245,20 @@ body{
  /* *** footer icons and animation on them *** */
   .fa-facebook-f{
     /* color: #818181; */
-    color:#727f87;
+    /* color:#727f87; */
+    color: #226469;
     font-size:150%;
     padding: 2.5%;
   }
   .fa-facebook-f:hover{
       /* color: rgb(101, 16, 9) */
       color: #226469;
+      
   }
   .fa-instagram{
     /* color: #818181; */
-    color:#727f87;
+    /* color:#727f87; */
+    color: #226469;
     font-size:150%;
     padding: 2.5%; 
   }
@@ -264,7 +268,8 @@ body{
 }
   .fa-twitter{
     /* color: #818181; */
-    color:#727f87;
+    /* color:#727f87; */
+    color: #226469;
     font-size:150%;
     padding: 2.5%; 
   }
@@ -274,32 +279,36 @@ body{
 }
   .fa-compact-disc{
     /* color: #818181; */
-    color:#727f87;
+    /* color:#727f87; */
+    color: #226469;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-compact-disc:hover{
     /* color: rgb(101, 16, 9); */
     /* background-color: black; */
-    color: #226469;;
+    color: #226469;
 }
 
   .fa-broadcast-tower{
     /* color: #818181; */
-    color:#727f87;
+    /* color:#727f87; */
+    /* color:#ffffff; */
+    color: #226469;
     font-size:150%;
     padding: 2.5%; 
   }
   .fa-broadcast-tower:hover{
     /* color: rgb(101, 16, 9); */
-    color: #226469;;
+    color: #226469;
+    
 }
   #hvr-bounce-in {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 2px #ffffff;
+    /* box-shadow: 0 0 2px #ffffff; */
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     padding: 2.5%;

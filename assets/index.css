@@ -2,48 +2,64 @@
 
 /* *** image at the top of the screen *** */
 .hero-image-top {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenterwording.png') ;
-    
-  
-    /* Set a specific height */
-    height: 50vh;
-  
-    /* Position and center the image to scale nicely on all screens */
+    height:50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
+  .about{
+    padding: 2%;
+  }
 
   /* *** the animations for when you hover over anything with a link attribute *** */
 
   .artist{
-    /* color: #818181;  */
-    color: #727f87;
+    color: #ffffff;
    
   }
   .artist:hover{
-      /* color: rgb(41, 40, 40); */
     text-decoration: none;
-    /* color:rgb(171,22,1); */
-    color: rgb(105,154,180);
-    
-      /* color: rgb(101, 16, 9); */
+    color: #ebcb92;
   }
    .image{
-    /* margin-top:-300px;*/
-    /* margin-left: 250px;  */
-    /* margin-left:40%;*/
-    /* margin-right:10%; 
-    padding-bottom: 12%; */
     height: 80vh;
     width: auto;
   } 
   .gear{
+    font-family: 'Muli', sans-serif;
+    color:#727f87;
     align-content: center;
     text-align: center;
+    margin-bottom:2%;
+   
   }
+  .headphones{
+    height: 35vh;
+    width: auto;
+    align-content: center
+  }
+  .hero-image-2{
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(  rgb(53, 99, 104, .6), rgb(53, 99, 104, .6));
+        /* Set a specific height */
+        height: 100%;
+      
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .studio{
+        font-family: 'Muli', sans-serif;
+    /* color: #818181; */
+    color:#ffffff;
+    align-content: center;
+    text-align: center;
+
+      }
   .hvr-grow {
     display: inline-block;
     vertical-align: middle;
