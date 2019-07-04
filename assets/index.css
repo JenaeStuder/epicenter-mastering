@@ -3,6 +3,7 @@
 /* *** image at the top of the screen *** */
 .hero-image-top {
     background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenterwording.png') ;
+    /* background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenter-background.png'); */
     height:50vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,6 +31,7 @@
   .gear{
     font-family: 'Muli', sans-serif;
     color:#727f87;
+    /* background-color:rgb(230, 204, 153, .8 ); */
     align-content: center;
     text-align: center;
     margin-bottom:2%;
