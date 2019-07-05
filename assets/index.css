@@ -2,7 +2,9 @@
 
 /* *** image at the top of the screen *** */
  .hero-image-top {
-    background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('./images/epicenterfinal.jpg') ;
+    background-image: 
+    /* linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)), */
+    url('./images/epicenterfinal.jpg');
     /* background-image: url('./images/epicenterfinal.jpg'); */
     height: 60vh;
     background-position: center;
@@ -12,6 +14,15 @@
   } 
   .master{
     background-color: white;
+  }
+  .hero-image-gear{
+    background-image: linear-gradient(rgb(26,26,26, .4),rgb(0,0,0, .4)),url('./images/headphones.JPG');
+    /* background-image: url('./images/epicenterfinal.jpg'); */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
   /* .about{
     padding: 5% 2% 2% 2%;
@@ -34,21 +45,26 @@
   } 
   .gear{
     font-family: 'Muli', sans-serif;
-    color:#727f87;
-    /* background-color:rgb(230, 204, 153, .8 ); */
+    color:#ffffff;
+    padding: 5%;
     align-content: center;
     text-align: center;
-    margin-bottom:2%;
     font-size: 25px;
    
+  }
+  .gearList{
+    font-size: 35px;
   }
   .headphones{
    padding-bottom: 2%;
     margin-right:5%;
+    height: 40vh;
+    width: auto;
   }
   .hero-image-2{
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(-145deg,rgb(230, 204, 153, .7 ),  rgb(53, 99, 104, .7), rgba(50, 82, 105, .7));
+        background-image: linear-gradient(-145deg,rgb(53, 99, 104,.7),  rgb(53, 99, 104), rgb(50, 82, 105));
+        /* ,rgb(230, 204, 153 ) value of the gold color*/
         /* linear-gradient(  rgb(53, 99, 104, .6), rgb(53, 99, 104, .6)); */
         /* Set a specific height */
         height: 100%;
@@ -90,12 +106,15 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+  /* .footer{
+    margin-top: -1%
+  } */
 
   /* *** Media Queries *** */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 375px) {
     .hero-image-top{
-      height: 20vh;
+      height: 10vh;
     }
     .gear{
       font-size: 50px;
@@ -104,6 +123,8 @@
       margin-top: 5%;
     }
     .headphones{
+      height:20vh;
+      width: auto;
       align-content: center;
       padding-left: 15%;
       padding-bottom: 5%;
