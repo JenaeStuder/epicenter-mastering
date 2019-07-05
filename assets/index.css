@@ -60,6 +60,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        padding:2%;
       }
    .studio{
         font-family: 'Muli', sans-serif;
@@ -92,6 +93,9 @@
   @media only screen and (max-width: 414px) {
     .hero-image-top{
       height: 10vh;
+    }
+    .gear{
+      font-size: 30px;
     }
   }
 
