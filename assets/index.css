@@ -3,7 +3,7 @@
 /* *** image at the top of the screen *** */
 .hero-image-top {
     /* background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenterwording.png') ; */
-    background-image:  linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)), url('./assets/images/epicenterfinal.jpg');
+    background-image:  linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)), url('/assets/images/epicenterfinal.jpg');
     height:60vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,11 +13,11 @@
   .master{
     background-color: white;
   }
-  .about{
+  /* .about{
     padding: 5% 2% 2% 2%;
-  }
+  } */
   .location{
-    padding-top:5%;
+    padding-top:8%;
   }
 
   /* *** the animations for when you hover over anything with a link attribute *** */
@@ -44,10 +44,10 @@
     font-size: 25px;
    
   }
-  .headphones{
+  /* .headphones{
     padding-left: 5%;
     padding-right:5%;
-  }
+  } */
   .hero-image-2{
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
         background-image: linear-gradient(-145deg,rgb(230, 204, 153, .7 ),  rgb(53, 99, 104, .7), rgba(50, 82, 105, .7));
@@ -68,10 +68,10 @@
     color:#ffffff;
     align-content: center;
     text-align: center;
-      }
-      .building{
-        padding-right:10%;
-      }
+   }
+  .building{
+        padding-top:2%;
+  }
   .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -90,19 +90,33 @@
 
   /* *** Media Queries *** */
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 600px) {
     .hero-image-top{
-      height: 10vh;
+      height: 20vh;
     }
     .gear{
-      font-size: 30px;
+      font-size: 50px;
+    }
+    .building{
+      margin-top: 5%;
+    }
+    .headphones{
+      align-content: center;
+      padding-left: 15%;
+      padding-bottom: 5%;
+    }
+    .location{
+      padding-top: 0%;
+    }
+    .list{
+      padding-top:2%;
     }
   }
 
 @media only screen and (max-width: 600px) {
-  .hero-image-top{
+  /* .hero-image-top{
     height: 30vh;
-  }
+  } */
 }
 @media only screen and (min-width: 600px) {
  
