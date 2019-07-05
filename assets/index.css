@@ -2,12 +2,12 @@
 
 /* *** image at the top of the screen *** */
 .hero-image-top {
-    background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenterwording.png') ;
-    /* background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenter-background.png'); */
-    height:50vh;
+    /* background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenterwording.png') ; */
+    background-image: linear-gradient(-145deg,rgb(230, 204, 153, .6 ),  rgb(53, 99, 104, .6), rgb(50, 82, 105, .6)),url('/assets/images/epicenter-background.png');
+    height:60vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
   }
   .about{
@@ -38,9 +38,8 @@
    
   }
   .headphones{
-    height: 35vh;
-    width: auto;
-    align-content: center
+    padding-left: 5%;
+    padding-right:5%;
   }
   .hero-image-2{
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -80,10 +79,32 @@
 
   /* *** Media Queries *** */
 
-@media only screen and (max-width: 600px) {}
-@media only screen and (min-width: 600px) {}
+  @media only screen and (max-width: 414px) {
+    .hero-image-top{
+      height: 10vh;
+    }
+  }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 600px) {
+  .hero-image-top{
+    height: 30vh;
+  }
+}
+@media only screen and (min-width: 600px) {
+ 
+
+  /* .headphones{
+    height: 13vh;
+    width: auto;
+  }  */
+}
+
+@media only screen and (min-width: 768px) {
+  /* .headphones{
+    height: 20vh;
+    width: auto;
+  } */
+}
 
 @media only screen and (min-width: 992px) {}
 

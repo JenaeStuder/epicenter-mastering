@@ -238,15 +238,15 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    height:20%;
+    height:100%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
   }
  /* *** footer icons and animation on them *** */
   .fa-facebook-f{
     /* color: #818181; */
     /* color:#727f87; */
-    color: #226469;
+    color: hsl(184, 51%, 27%);
     font-size:150%;
     padding: 2.5%;
   }
