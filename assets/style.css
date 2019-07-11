@@ -19,6 +19,10 @@ body{
   /* background-image:linear-gradient(-145deg,rgb(230, 204, 153, .6 ),rgb(53, 99, 104, .6),rgb(50, 82, 105, .6)); */
 
 }
+.flex-box-menu{
+  display: flex;
+  flex-direction: row;
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -70,13 +74,10 @@ body{
     /* background-color: #ffffff; */
     
   }
-  /* .logo{
-    align-content: center;
-    background-image:linear-gradient(45deg,#727f87,  #dee3e6);
-    height: 800px; 
-     background-color:#727f87; 
+  .logo{
+    margin-right: 5%; 
     
-  }*/
+  }
   .cl-effect-2 a {
 	line-height: 50px;
 	-webkit-perspective: 1000px;
