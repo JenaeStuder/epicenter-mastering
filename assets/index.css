@@ -64,7 +64,7 @@
   }
   .hero-image-2{
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(145deg,rgb(230, 204, 153 ),  rgb(53, 99, 104), rgb(50, 82, 105));
+        background-image: linear-gradient(150deg,rgb(230, 204, 153 ),rgb(70, 144, 152),rgb(53, 99, 104),  rgb(50, 82, 105));
         /* ,rgb(230, 204, 153 ) value of the gold color*/
         /* linear-gradient(  rgb(53, 99, 104, .6), rgb(53, 99, 104, .6)); */
         /* Set a specific height */
