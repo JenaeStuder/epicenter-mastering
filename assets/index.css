@@ -36,9 +36,12 @@
     color: #ffffff;
    
   }
-  .artist:hover{
+  .artist:hover, .credits:hover{
     text-decoration: none;
     color: #ebcb92;
+  }
+  .credits{
+    color:#727f87
   }
    .image{
     height: 80vh;

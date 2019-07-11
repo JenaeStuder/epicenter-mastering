@@ -160,6 +160,15 @@ figure.effect-oscar:hover img {
     min-height: 30px;
     width: auto;
 }
+#bio{
+    font-family: 'Muli', sans-serif;
+    /* color: #818181; */
+    color:#727f87;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    padding:0% 5%;
+}
 /* 
 *** Media Queries *** */
 
