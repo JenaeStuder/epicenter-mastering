@@ -249,7 +249,7 @@ body{
     /* margin-bottom: 5%; */
   }
  /* *** footer icons and animation on them *** */
-  .fa-facebook-f{
+  .fa-facebook-f,.fa-instagram, .fa-twitter,.fa-compact-disc, .fa-broadcast-tower {
     /* color: #818181; */
     /* color:#727f87; */
     color: hsl(184, 51%, 27%);
@@ -261,49 +261,49 @@ body{
       color: #226469;
       
   }
-  .fa-instagram{
+  /* .fa-instagram{
     /* color: #818181; */
-    /* color:#727f87; */
+    /* color:#727f87; 
     color: #226469;
     font-size:150%;
     padding: 2.5%; 
-  }
+  } */
   .fa-instagram:hover{
     /* color: rgb(101, 16, 9); */
     color: #226469;;
 }
-  .fa-twitter{
+  /* .fa-twitter{
     /* color: #818181; */
-    /* color:#727f87; */
+    /* color:#727f87; 
     color: #226469;
     font-size:150%;
     padding: 2.5%; 
-  }
+  } */
   .fa-twitter:hover{
     /* color: rgb(101, 16, 9); */
     color: #226469;;
 }
-  .fa-compact-disc{
+  /*.fa-compact-disc{
     /* color: #818181; */
-    /* color:#727f87; */
+    /* color:#727f87; 
     color: #226469;
     font-size:150%;
     padding: 2.5%; 
-  }
+  }*/
   .fa-compact-disc:hover{
     /* color: rgb(101, 16, 9); */
     /* background-color: black; */
     color: #226469;
 }
 
-  .fa-broadcast-tower{
+  /* .fa-broadcast-tower{
     /* color: #818181; */
     /* color:#727f87; */
-    /* color:#ffffff; */
+    /* color:#ffffff; 
     color: #226469;
     font-size:150%;
     padding: 2.5%; 
-  }
+  } */
   .fa-broadcast-tower:hover{
     /* color: rgb(101, 16, 9); */
     color: #226469;
