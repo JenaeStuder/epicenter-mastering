@@ -1,4 +1,44 @@
+.flex-box-credits{
+  display:flex;
+  justify-content: center;
 
+}
+.spotify{
+  border: 1px solid #727f87;
+  padding: 1em;
+}
+.credits{
+  font-family: 'BenchNine', sans-serif; 
+    font-weight: 100;
+    font-size: 40px;
+    /* color: #818181; */
+    color:#727f87;
+    text-align: center;
+  /* margin:2%; */ 
+}
+.header{
+  font-family: 'BenchNine', sans-serif; 
+    font-weight: 100;
+    font-size: 50px;
+    /* color: #818181; */
+    color:#727f87;
+    text-align: center;
+    padding: 2%;
+    align-content: center;
+}
+.head{
+  font-family: 'BenchNine', sans-serif; 
+    font-weight: 100;
+    font-size: 50px;
+    /* color: #818181; */
+    color:#727f87;
+    text-decoration: underline;
+
+}
+.head:hover{
+  text-decoration: none;
+    color: #ebcb92;
+}
 
 /* *** Media Queries *** */
 
