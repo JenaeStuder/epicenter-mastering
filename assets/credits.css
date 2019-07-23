@@ -1,9 +1,11 @@
 .flex-box-credits{
   display:flex;
   justify-content: center;
+
   align-items: top;
   align-content: center;
   margin-bottom: 1rem;
+
 
 }
 /* iframe{
