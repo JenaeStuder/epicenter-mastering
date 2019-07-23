@@ -29,21 +29,23 @@
 .spotifyColumn, .credits{
    display: flex;
    flex-flow: row wrap;
-   align-content: center;
+   align-content: top;
+   align-items: top;
    justify-content: center;
    padding: 1em;
+   font-family: 'BenchNine', sans-serif; 
+   font-weight: 100;
+   font-size: 40px;
+   color:#727f87;
 }
-.credits{
-  font-family: 'BenchNine', sans-serif; 
-    font-weight: 100;
-    font-size: 40px;
-    /* color: #818181; */
-    color:#727f87;
-    text-align: center;
-    /* display: flex;
-    flex-flow: row wrap; */
-  /* margin:2%; */ 
-}
+/* .creditNames{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: top;
+} */
+
+
 .header{
   font-family: 'BenchNine', sans-serif; 
     font-weight: 100;
