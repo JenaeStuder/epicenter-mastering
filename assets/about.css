@@ -6,6 +6,7 @@
     max-width: 1000px;
     list-style: none;
     text-align: center;
+   
 }
 /* Common style */
 .grid figure {
@@ -22,6 +23,8 @@
     /* background: #3085a3; */
     text-align: center;
     cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 5px 5px 3px rgb(116, 127, 134, .5);
 }
 .grid figure img {
     position: relative;
@@ -159,6 +162,8 @@ figure.effect-oscar:hover img {
 .gentry{
     min-height: 30px;
     width: auto;
+    border-radius: 4px;
+    
 }
 #bio{
     font-family: 'Muli', sans-serif;
